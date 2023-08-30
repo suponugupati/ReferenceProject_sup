@@ -1,0 +1,11 @@
+.idea
+*.iml
+target
+output
+*.DS_Store
+/test-output/report.html
+.metadata*
+**.metadata**
+.metadata/.log
+.metadata/.log
+.metadata/.mylyn/repositories.xml.zip

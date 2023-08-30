@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="207866" started-at="2020-02-17T06:43:52Z" finished-at="2020-02-17T06:47:20Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="CreateACaseFlow.scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.runner.CreateACaseFlow@1ce92674]" name="scenario" class="com.cucumber.runner.CreateACaseFlow"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="207866" started-at="2020-02-17T06:43:52Z" finished-at="2020-02-17T06:47:20Z">
+      <class name="com.cucumber.runner.CreateACaseFlow">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.runner.CreateACaseFlow@1ce92674]" name="setUpClass" is-config="true" duration-ms="305" started-at="2020-02-17T12:13:52Z" finished-at="2020-02-17T12:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.runner.CreateACaseFlow@1ce92674]" name="scenario" duration-ms="204846" started-at="2020-02-17T12:13:52Z" description="Runs Cucumber Feature" data-provider="scenarios" finished-at="2020-02-17T12:17:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["1.User logs into salesforce and creates a case"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Case Object related Smoke Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="endTestExecution()[pri:0, instance:com.cucumber.runner.CreateACaseFlow@1ce92674]" name="endTestExecution" is-config="true" duration-ms="2597" started-at="2020-02-17T12:17:17Z" finished-at="2020-02-17T12:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestExecution -->
+      </class> <!-- com.cucumber.runner.CreateACaseFlow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
